@@ -171,7 +171,7 @@ internal_uuid_create(int v, unsigned char *ns, char *ptr, int len)
 					"%02x%02x-%02x%02x-%02x%02x-"
 					"%02x%02x%02x%02x%02x%02x",
 					buf[0], buf[1], buf[2], buf[3],
-					buf[4], buf[5], ((buf[6] & 0xf) | 0x30), buf[7],
+					buf[4], buf[5], ((buf[6] & 0xf) | 0x50), buf[7],
 					((buf[8] & 0x3F) | 0x80), buf[9], buf[10], buf[11],
 					buf[12], buf[13], buf[14], buf[15]);
 
